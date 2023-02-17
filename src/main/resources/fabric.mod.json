@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "funky-meteor",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "funky",
+  "description": "does funky things to meatore clinte",
   "authors": [
-    "seasnail"
+    "lapoliciarobomiquesofrances"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/lapoliciarobomiquesofrances/funky-meteor"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "funky.Addon"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "funky.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"

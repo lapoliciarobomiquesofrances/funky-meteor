@@ -1,8 +1,10 @@
 {
   "required": true,
-  "package": "com.example.addon.mixin",
+  "package": "funky.mix",
   "compatibilityLevel": "JAVA_17",
-  "client": [],
+  "client": [
+    "AddMotors"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
